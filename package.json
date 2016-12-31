@@ -1,0 +1,27 @@
+{
+  "name": "node-playground",
+  "version": "0.0.1",
+  "description": "Scripts and dependencies for playing with Node.js",
+  "main": "index.js",
+  "repository": "https://github.com/melurie/node-playground",
+  "author": "melurie <melurie03@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-react": "^6.8.0",
+    "flow-bin": "^0.37.4",
+    "webpack": "v2.1.0-beta.28"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
