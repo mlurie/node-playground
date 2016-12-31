@@ -2,6 +2,8 @@
 
 'use strict';
 
-const a: string = 'hello world';
+import * as Immutable from 'immutable';
+
+const a: Immutable.List<string> = Immutable.List(['hello','world']);
 
 console.log(a);
