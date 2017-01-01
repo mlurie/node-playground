@@ -11,7 +11,11 @@ module.exports = {
   },
   module: {
     rules: [
-      {test: /\.(js|jsx)$/, use: ['babel-loader','eslint-loader']}
+      {
+        test: /\.(js|jsx)$/,
+        use: ['babel-loader','flow-bin-loader','eslint-loader'],
+        exclude: /node_modules/,
+      },
     ]
   },
   plugins: [

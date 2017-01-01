@@ -30,7 +30,7 @@
     "lint": "eslint index.js",
     "flow": "flow",
     "pack": "webpack",
-    "build": "flow && webpack",
-    "build-watch": "flow && webpack --watch"
+    "build": "webpack",
+    "build-watch": "webpack --watch"
   }
 }
