@@ -1,7 +1,5 @@
-'use strict';
-
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: './index.js',
@@ -13,12 +11,12 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        use: ['babel-loader','flow-bin-loader','eslint-loader'],
+        use: ['babel-loader', 'flow-bin-loader', 'eslint-loader'],
         exclude: /node_modules/,
       },
-    ]
+    ],
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-  ]
+  ],
 };
