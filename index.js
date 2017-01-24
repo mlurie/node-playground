@@ -5,6 +5,7 @@
  */
 
 import * as Immutable from 'immutable';
+import './css/app.css';
 
 const a: Immutable.List<string> = Immutable.List([
   'hello',
