@@ -33,7 +33,7 @@
     "optimize-css-assets-webpack-plugin": "^1.3.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "webpack": "v2.1.0-beta.28"
+    "webpack": "v2.2.0"
   },
   "scripts": {
     "lint": "eslint index.js",
