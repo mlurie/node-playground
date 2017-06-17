@@ -12,5 +12,4 @@ const a: Immutable.List<string> = Immutable.List([
   'world',
 ]);
 
-
 console.log(a);
