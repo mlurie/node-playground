@@ -7,4 +7,9 @@ const a: Immutable.List<string> = Immutable.List([
   "world",
 ]);
 
+// const a: string[] = [
+//   "hello",
+//   "world",
+// ];
+
 console.log(a);
